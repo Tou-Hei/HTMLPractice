@@ -1,0 +1,16 @@
+.header-contents{
+    /*背景色 */
+    background-color: #FAFAD2;
+    /*幅の指定 */
+    width: 100%;
+    /*高さの指定 */
+    height: 100px;
+}
+h1{
+    text-align: center;
+    /*文字の大きさを変える */
+    font-size: 2rem;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: rgb(255, 0, 0);
+    width: 80%;
+}

@@ -1,0 +1,32 @@
+*{
+    font-size: 20px;
+}
+
+#li-color{
+    color: red;
+}
+
+.text-color{
+    color: blue;
+    font-size: 50px;
+}
+/*idを指定して色付き*/
+#contents{
+    color: red;
+}
+/*classを指定して色付き*/
+.section{
+    color:blue;
+}
+/*要素を指定して色付き*/
+div{
+    color: green;
+}
+
+ul{/*箇条書きの点々を消す方法 */
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}

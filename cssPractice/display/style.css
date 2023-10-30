@@ -1,0 +1,38 @@
+header{
+    background-color: rgb(170, 166, 170);
+    padding: 20px 0;
+}
+
+ul{
+    /* 箇条書きの点々を削除*/
+    list-style: none;
+    /* Liたちを横並びにする*/
+    display: flex;
+    /*隙間をつくる */
+    gap: 0 10px;
+    /*中身を中央に移る */
+    justify-content: end;
+}
+
+.last{
+    margin-right: 30px;
+}
+
+.blog-contens{
+    display: flex;
+    width: 90%;
+    /*間隔をあける*/
+    gap: 0 20px;
+    /*中身を中央に移る */
+    justify-content: center;
+    /*箱を中央に移る */
+    margin: 0 auto;
+}
+
+.blog{
+    width: 80%;
+}
+
+img{
+    width: 100%;
+}
