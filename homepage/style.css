@@ -1,28 +1,42 @@
+body{
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+header{
+    background-color: #fff5ee;
+    padding: 20px 0;
+}
+a:hover{
+    color: red;
+}
+li:hover{
+    color: dodgerblue;
+}
 ul{
     list-style: none;
     display: flex;
     gap: 0 40px;
     justify-content: center;
 }
-.homepage{
-    margin-right:30px;
-}
-img{
-    width: 100%;
-}
-header{
-    background-color: #fff5ee;
-    padding: 20px 0;
+
+h1{
+    text-align: center;
+    padding:20px 0;
 }
 
-:contens{
+
+.blog-contens{
     display: flex;
     width: 90%;
     gap: 0 20px;
     justify-content: center;
     margin: 0 auto;
+    font-size: 5px;
+}
+.blog{
+    width: 30px;
+}
+img{
+    width: 100%;
 }
 
-.blog{
-    width: 30%;
-}
